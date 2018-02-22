@@ -67,6 +67,7 @@ if(shift_down) {
 		var x1 = floor(mouse_x / 4); //where you want to end the path x coordinate
 		var y1 = floor(mouse_y / 4); //where you want to end the path y coordinate 
 		var width = 2.5;
+		//this is the draw path funtion
 		thick_octant(x0,y0,x1,y1,width,tilemap_id);
 	 	
 }
